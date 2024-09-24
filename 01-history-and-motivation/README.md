@@ -12,13 +12,13 @@
 
 ## What is a container?
 
-A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application (https://www.docker.com/resources/what-container/).
+A Docker container image is a **lightweight, standalone, executable** `package of software` that includes everything needed to run an application (https://www.docker.com/resources/what-container/).
 
 ## History of virtualization
 
 ### Bare Metal
 
-Before virtualization was invented, all programs ran directly on the host system. The terminology many people use for this is "bare metal". While that sounds fancy and scary, you are almost certainly familiar with running on bare metal because that is what you do whenever you install a program onto your laptop/desktop computer. 
+Before virtualization was invented, all programs ran directly on the host system. The terminology many people use for this is `"bare metal"`. While that sounds fancy and scary, you are almost certainly familiar with running on bare metal because that is what you do whenever you install a program onto your laptop/desktop computer. 
 
 ![](./readme-assets/bare-metal.jpg)
 
@@ -35,7 +35,7 @@ This is simple to understand and direct access to the hardware can be useful for
 
 ### Virtual Machines
 
-Virtual machines use a system called a "hypervisor" that can carve up the host resources into multiple isolated virtual hardware configuration which you can then treat as their own systems (each with an OS, binaries/libraries, and applications).
+Virtual machines use a system called a `"hypervisor"` that can carve up the host resources into multiple isolated virtual hardware configuration which you can then treat as their own systems (each with an OS, binaries/libraries, and applications).
 
 ![](./readme-assets/virtual-machine.jpg)
 
@@ -51,7 +51,7 @@ This helps improve upon some of the challenges presented by bare metal:
 
 ### Containers
 
-Containers are similar to virtual machines in that they provide an isolated environment for installing and configuring binaries/libraries, but rather than virtualizing at the hardware layer containers use native linux features (cgroups + namespaces) to provide that isolation while still sharing the same kernel.
+Containers are similar to virtual machines in that they provide an isolated environment for installing and configuring binaries/libraries, but rather than virtualizing at the hardware layer containers use native linux features `(cgroups + namespaces)` to provide that isolation while still sharing the same kernel.
 
 ![](./readme-assets/container.jpg)
 
